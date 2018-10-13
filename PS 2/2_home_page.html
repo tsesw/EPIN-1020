@@ -2,9 +2,10 @@
 
 <head>
   <link rel="stylesheet" type=text/css href="2_home_style.css">
-  <script src= "script.js"></script>
+  <script src= "2_script.js"></script>
 
   <title>Dog Age Calculator</title>
+
 
 </head>
 
@@ -27,22 +28,9 @@
 
     </form>
 
+    <p id='demo'>Woof Woof!</p>
 
-
-    <script type="text/javascript">
-
-            function age_cal()
-            {
-              var dog_age;
-              dog_age=Number(document.dcal.txtdog_age.value);
-              res=dog_age*7;
-              document.dcal.txthuman_age.value=res;
-
-            }
-
-
-
-    </script>
+    <button onclick="show_topic()">Click Me!</button>
 
 </body>
 
